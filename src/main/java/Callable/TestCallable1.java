@@ -32,6 +32,10 @@ public class TestCallable1 implements Callable<Boolean> {
         Boolean aBoolean1 = submit1.get();
         Boolean aBoolean2 = submit2.get();
 
+        System.out.println(aBoolean);
+        System.out.println(aBoolean1);
+        System.out.println(aBoolean2);
+
         executorService.shutdown();
     }
 

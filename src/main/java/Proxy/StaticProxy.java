@@ -1,8 +1,5 @@
 package Proxy;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-import org.omg.CORBA.MARSHAL;
-
 /**
  * @ClassName StaticProxy
  * @Author

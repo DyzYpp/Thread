@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da70f8d-14c6-4dc6-b802-3cc72d85bb9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadSafe/UnSafeBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadSafe/UnSafeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadSafe/UnSafeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/DutyRead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Callable/TestCallable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Callable/TestCallable1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Proxy/StaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Proxy/StaticProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Callable/TestCallable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Callable/TestCallable1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proxy/StaticProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/You.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proxy/You.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Proxy/weddingCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Proxy/weddingCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreadSafe/UnSafeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThreadSafe/UnSafeList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +70,20 @@
       <recent name="D:\i-exercise\Thread\src\main\java\Lambda" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCallable1">
+  <component name="RunManager" selected="Application.DutyRead">
+    <configuration name="DutyRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.DutyRead" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCallable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Callable.TestCallable1" />
       <module name="Thread" />
@@ -79,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnSafeBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadSafe.UnSafeBank" />
+    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestJoin" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadSafe.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,22 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnSafeExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadSafe.UnSafeExample" />
+    <configuration name="TestYield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestYield" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadSafe.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnSafeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnSafeExample" />
-      <module name="Thread" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DutyRead" />
+        <item itemvalue="Application.TestYield" />
+        <item itemvalue="Application.TestJoin" />
         <item itemvalue="Application.TestCallable1" />
         <item itemvalue="Application.UnSafeList" />
-        <item itemvalue="Application.UnSafeBank" />
-        <item itemvalue="Application.UnSafeExample (1)" />
-        <item itemvalue="Application.UnSafeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +170,7 @@
       <updated>1594603598240</updated>
       <workItem from="1594603601742" duration="10580000" />
       <workItem from="1594795976623" duration="6515000" />
+      <workItem from="1595230523871" duration="5614000" />
     </task>
     <servers />
   </component>
@@ -174,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594797403267" />
-    <state x="663" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594607657614">
+    <state x="663" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595231447342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="663" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594607657614" />
+    <state x="663" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595231447342" />
     <state x="744" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1594607658993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,22 +198,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594619213316" />
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1594805146470">
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1595239163903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594805146470" />
-    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1594805146469">
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595239163903" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1595239163903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594805146469" />
-    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1594805146469">
+    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595239163903" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1595239163903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594805146469" />
-    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1594805146469">
+    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595239163903" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1595239163903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594805146469" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595239163903" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1594603807920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
