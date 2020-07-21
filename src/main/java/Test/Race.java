@@ -29,7 +29,6 @@ public class Race implements Runnable{
                 break;
             }
         }
-
     }
 
     private boolean gameOver(int steps){
@@ -42,7 +41,6 @@ public class Race implements Runnable{
                 return true;
             }
         }
-
         return false;
     }
 

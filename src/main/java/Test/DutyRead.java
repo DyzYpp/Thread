@@ -1,7 +1,5 @@
 package Test;
 
-import org.omg.CORBA.BAD_CONTEXT;
-
 /**
  * @ClassName DutyRead
  * @Author
@@ -29,6 +27,7 @@ public class DutyRead {
         }
     }
 }
+
 
 class Account{
 
